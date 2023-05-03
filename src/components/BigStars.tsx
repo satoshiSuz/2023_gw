@@ -38,7 +38,7 @@ export const BigStars: FC<Props> = (props) => {
       width: ${size}px;
       height: ${size}px;
       left: ${column * 20 - 10}%;
-      top: ${row * 25 - 10}%;
+      top: ${row * 15 - 10}%;
       animation-delay: ${num + 2}s;
     `,
   ];

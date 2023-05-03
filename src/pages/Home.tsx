@@ -23,7 +23,7 @@ export const Home = () => {
     stars();
   }, []);
   useEffect(() => {
-    if (count === 5) {
+    if (count === 10) {
       navigate("answer");
     }
   }, [count]);
@@ -71,7 +71,7 @@ const styles = {
   `,
   text: css`
     position: absolute;
-    bottom: 3%;
+    bottom: 20%;
     color: #fff;
   `,
   textWrapper: css`
